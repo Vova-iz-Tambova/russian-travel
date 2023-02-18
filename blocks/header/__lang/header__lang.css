@@ -1,7 +1,7 @@
 .header__lang {
   font-size: 24px;
-  font-weight: 400px;
   line-height: 28px;
+  font-weight: 400px;
   font-style: normal;
   text-decoration: none;
   color: white;
@@ -15,7 +15,6 @@
 @media screen and (max-width: 320px) {
   .header__lang {
     font-size: 18px;
-    font-weight: 400px;
     line-height: 20px;
     margin-left: 18px;
   }

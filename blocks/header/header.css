@@ -1,8 +1,11 @@
 .header {
   max-width: 1184px;
+  min-width: 288px;
+  width: calc(100% - 96px);
   height: 52px;
-  margin: 28px 48px 0;
-  background-image: url(../../images/header-logo.svg);
+  margin: 0 auto;
+  margin-top: 28px;
+  background-image: url(../../../images/header-logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -10,16 +13,16 @@
   align-items: flex-end;
   }
 
-@media screen and (max-width: 768px) {
-  .header {
-    margin: 28px 24px 0;
-  }
+  @media screen and (max-width: 768px) {
+.header {
+  width: calc(100% - 48px);
+ }
 }
 
 @media screen and (max-width: 320px) {
-  .header {
-    width: 288px;
-    height: 42px;
-    margin: 16px 16px 0;
-  }
+.header {
+  width: calc(100% - 16px);
+  height: 42px;
+  margin-top: 16px;
+ }
 }
