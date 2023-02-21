@@ -5,9 +5,12 @@
   color: #AAA;
   letter-spacing: 2px;
   align-self: end;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
 .place__website {
+  line-height: 24px;
   margin: 0 16px;
 }}
