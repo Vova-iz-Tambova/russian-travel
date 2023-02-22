@@ -6,6 +6,8 @@
   text-decoration: none;
   color: white;
   margin-left: 18px;
+  margin-bottom: 6px;
+
 }
 
 .header__lang:hover {
@@ -17,5 +19,6 @@
     font-size: 18px;
     line-height: 20px;
     margin-left: 18px;
+    margin-bottom: 8px;
   }
 }

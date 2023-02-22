@@ -20,6 +20,7 @@
   max-width: 720px;
   margin-top: 88px;
   grid-template: repeat(6, 264px) / repeat(2, 352px);
+  gap: 16px;
 }}
 
 @media screen and (max-width: 767px) {
