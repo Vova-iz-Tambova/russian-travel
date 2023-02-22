@@ -2,10 +2,18 @@
   width: 100%;
   max-width: 984px;
 	justify-self: center;
+  margin-top: 92px;
 }
 
 @media screen and (max-width: 1024px) {
 .intro {
   max-width: 928px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.intro {
+  max-width: 288px;
+  margin-top: 64px;
 }
 }
