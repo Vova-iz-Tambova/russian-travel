@@ -6,7 +6,16 @@
   text-align: center;
   margin-top: 32px;
   position: relative;
+  margin-left: 0;
+  margin-right: 0;
   z-index: 1;
+  color: white;
+  text-decoration: none;
+  transition: opacity .7s ease-in-out;
+}
+
+.cover__subtitle:hover {
+  opacity: .55;
 }
 
 @media screen and (max-width: 767px) {

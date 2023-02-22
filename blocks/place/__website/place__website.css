@@ -7,6 +7,11 @@
   align-self: end;
   margin-top: 12px;
   margin-bottom: 0;
+  transition: opacity .35s linear;
+}
+
+.place__website:hover {
+  opacity: .45;
 }
 
 @media screen and (max-width: 767px) {
