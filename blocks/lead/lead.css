@@ -2,4 +2,11 @@
 max-width: 984px;
 display: grid;
 justify-self: center;
+margin: 56px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+.lead {
+  margin-top: 48px;
+}
 }
