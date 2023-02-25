@@ -1,4 +1,5 @@
 .lead {
-  display: grid;
-  justify-content: center;
+max-width: 984px;
+display: grid;
+justify-self: center;
 }
