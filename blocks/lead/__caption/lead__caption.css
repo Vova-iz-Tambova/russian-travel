@@ -1,4 +1,5 @@
 .lead__caption {
+  display: grid;
   width: 100%;
   font-size: 10px;
   line-height: 14px;
@@ -12,7 +13,7 @@
 
 @media screen and (max-width: 1024px) {
 .lead__caption {
-  width: 92.5vw;
+  width: 90.625vw;
   min-width: 720px;
 }
 }

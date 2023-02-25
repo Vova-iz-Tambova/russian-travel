@@ -1,27 +1,24 @@
 .intro {
-  width: 100%;
+  display: grid;
   max-width: 984px;
+  width: 76.85vw;
 	margin-top: 92px;
   justify-self: center;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
 .intro {
-  width: 928px;
-  margin-top: 88px;
-}
-}
-
-@media screen and (max-width: 1023px) {
-.intro {
-  max-width: 720px;
+  width: 90.625vw;
+  max-width: 928px;
+  min-width: 720px;
   margin-top: 88px;
 }
 }
 
 @media screen and (max-width: 767px) {
 .intro {
-  max-width: 288px;
+  width: 90vw;
   margin-top: 64px;
+  min-width: 288px;
 }
 }
