@@ -11,13 +11,20 @@
   width: 90.625vw;
   max-width: 928px;
   min-width: 720px;
-  margin-top: 88px;
+
 }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 .intro {
-  width: 90vw;
+  width: 93.75vw;
+  margin-top: 88px;
+  min-width: 288px;
+}
+}
+
+@media screen and (max-width: 720px) {
+.intro {
   margin-top: 64px;
   min-width: 288px;
 }

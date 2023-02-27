@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
 .lead__image {
-  width: 90.625vw;
+  width: calc(90.625vw -  12px);
   min-width: 768px;
   margin-top: 56px;
 }
@@ -18,7 +18,7 @@
 @media screen and (max-width: 768px) {
 .lead__image {
   min-width: 288px;
-  width: 100%;
+  width: 100vw;
 }
 }
 

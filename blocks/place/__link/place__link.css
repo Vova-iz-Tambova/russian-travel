@@ -3,11 +3,4 @@
   font-size: 18px;
   line-height: 22px;
   margin: 0;
-  color: white;
-  opacity: .8;
-  transition: opacity .7s ease-out;
-}
-
-.place__link:hover {
-  opacity: .3;
 }
