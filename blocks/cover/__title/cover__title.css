@@ -5,17 +5,8 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
-  position: relative;
-  z-index: 1;
   color: white;
-  text-decoration: none;
-  opacity: .8;
-  transition: opacity .35s ease-in-out;
   }
-
-.cover__title:hover {
-  opacity: .3;
-}
 
 @media screen and (max-width: 767px) {
 .cover__title {

@@ -2,22 +2,10 @@
   width: 100%;
   max-width: 1184px;
   aspect-ratio: 8 / 5;
-  position: relative;
   justify-self: center;
   margin-top: 92px;
+  position: relative;
 }
-/*
-@media screen and (max-width: 1279px) {
-.cover {
-  width: 1024px;
-  min-height: 640px;
-}}
-
-@media screen and (max-width: 1024px) {
-.cover {
-  width: 768px;
-}}
-*/
 
 @media screen and (max-width: 767px) {
 .cover {

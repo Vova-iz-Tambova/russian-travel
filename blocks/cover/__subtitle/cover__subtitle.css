@@ -5,16 +5,6 @@
   line-height: 22px;
   text-align: center;
   margin: 32px 0 0;
-  position: relative;
-  z-index: 1;
-  color: white;
-  text-decoration: none;
-  opacity: .8;
-  transition: opacity .35s ease-in-out;
-}
-
-.cover__subtitle:hover {
-  opacity: .3;
 }
 
 @media screen and (max-width: 767px) {
