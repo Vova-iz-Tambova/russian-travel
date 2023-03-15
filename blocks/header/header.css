@@ -5,9 +5,13 @@
   margin-top: 28px;
   display: grid;
   grid-auto-flow: column;
-  justify-content: space-between;
+  justify-content: end;
   align-items: end;
   align-self: center;
+  background-image: url(../../images/header-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 52px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,5 +32,6 @@
 .header {
   width: 90vw;
   margin-top: 16px;
+  height: 42px;
 }
 }
